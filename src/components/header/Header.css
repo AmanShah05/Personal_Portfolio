@@ -18,6 +18,7 @@ header {
 }
 
 .header_socials {
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     align-item: center;
@@ -32,6 +33,7 @@ header {
     width: 2px;
     height: 2rem;
     background: var(--color-primary);
+    margin-left: 7px;
 }
 
 .me {
@@ -52,7 +54,7 @@ header {
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 /* ============================= MEDIA QUERIES (MEDIUM DEVICES) ============================= */
@@ -62,7 +64,7 @@ header {
     }
 }
 
-/* ============================= MEDIA QUERIES (MEDIUM DEVICES) ============================= */
+/* ============================= MEDIA QUERIES (SMALL DEVICES) ============================= */
 @media screen  and (max-width: 600px) {
     header {
         height: 100vh;

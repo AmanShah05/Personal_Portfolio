@@ -12,13 +12,13 @@
 
 :root{
     --color-bg: #1f1538;
-    --color-bg-variant: #2c2c26c;
+    --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: #rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: #rgba(255, 255, 255, 0.6);
 
-    --transtion: all 400ms ease;
+    --transition: all 600ms ease;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -61,11 +61,10 @@ h1{
 
 section {
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section > h2, section > h5 {
-    text-align:center;
+    text-align: center;
     color: var(--color-light);
 }
 
@@ -116,24 +115,16 @@ img {
 
 /* ============================= MEDIA QUERIES (MEDIUM DEVICES) ============================= */
 @media screen  and (max-width: 1024px){
-    .container{
-        width: var(--container-width-md);
-        margin: 0 auto;
-    }
-
-    section{
-        margin-top: 6rem;
+    .portfolio_container {
+       grid-template-columns: 1fr 1fr;
+       gap: 1.2rem;
     }
 }
 
 /* ============================= MEDIA QUERIES (MEDIUM DEVICES) ============================= */
 @media screen  and (max-width: 600px){
-    .container{
-        width: var(--container-width-sm);
-        margin: 0 auto;
-    }
-
-    section > h2 {
-        margin-top: 2rem;
+    .portfolio_container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
 }
