@@ -21,16 +21,6 @@ const data = [
     name:  'Sheena Gosse',
     review: 'Aman was hired for the volunteer & outreach summer student with Junior Achievement of Waterloo Region, and he was a pleasure to work with. He was a hard worker, creative, precise and met deadlines that were set for him. He would be a good addition to any team. Aman was hired for the volunteer & outreach summer student with Junior Achievement of Waterloo Region, and he was a pleasure to work with. He was a hard worker, creative, precise and met deadlines that were set for him. He would be a good addition to any team.'
   },
-  {
-    avatar: AVTR1,
-    name:  'Mary Olsen',
-    review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quisquam necessitatibus exercitationem rem, minus, ab nisi illo ad consequatur ipsum sed nihil praesentium, ipsam commodi explicabo aut eligendi harum! Nesciunt.'
-  },
-  {
-    avatar: AVTR1,
-    name:  'Mary Olsen',
-    review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quisquam necessitatibus exercitationem rem, minus, ab nisi illo ad consequatur ipsum sed nihil praesentium, ipsam commodi explicabo aut eligendi harum! Nesciunt.'
-  },
 ]
 
 const Testimonials = () => {

@@ -1,0 +1,81 @@
+.work_experience_container{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 0.8fr;
+    gap: 2rem;
+}
+
+.work_experience_container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.work_experience_container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.work_experience_container > div h3 {
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.work_experience_content {
+    display: grid;
+    grid-template-columns: 1fr ;
+    row-gap: 0.5rem;
+}
+
+.work_experience_details {
+    display: flex;
+    gap: 1rem;
+} 
+
+.experience_details-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+
+.changeofh4 {
+    display: flex;
+    justify-content: center;
+    color: var(--color-light);
+    margin-bottom: 1rem;
+}
+
+
+
+
+/* ============================= MEDIA QUERIES (MEDIUM DEVICES) ============================= */
+@media screen  and (max-width: 1024px) {
+    .work_experience_container {
+        grid-template-columns: 1fr;
+    }
+
+    .work_experience_container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .work_experience_content {
+        padding: 1rem;
+    }
+}
+
+/* ============================= MEDIA QUERIES (SMALL DEVICES) ============================= */
+@media screen  and (max-width: 600px) {
+    .work_experience_container {
+        gap: 1rem;
+    }
+
+    .work_experience_container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}

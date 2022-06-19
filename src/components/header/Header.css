@@ -11,12 +11,41 @@ header {
 }
 
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
 }
 
+.i-title{
+    height: 30px;
+    overflow: hidden;
+}
+.i-item{
+    height: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    color: var(--color-light);
+}
+.i-title-wrapper{
+    height: 100%;
+    animation: move 15s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25% {
+        transform: translateY(-50px);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+    75% {
+        transform: translateY(-150px);
+    }
+    100% {
+        transform: translateY(-200px);
+    }
+}
 .header_socials {
     font-size: 1.2rem;
     display: flex;
