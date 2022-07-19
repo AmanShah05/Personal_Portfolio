@@ -16,8 +16,8 @@
     );
     display: grid;
     place-items: center;
+    margin: 2rem auto 13rem;
 }
-
 
 .about_me-image {
     border-radius: 2rem;
@@ -90,7 +90,7 @@
 /* ============================= MEDIA QUERIES (SMALL DEVICES) ============================= */
 @media screen  and (max-width: 600px) {
     .about_me {
-        width: 65%;
+        width: 100%;
         margin: 0 auto 3rem;
     }
 

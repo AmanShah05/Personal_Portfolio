@@ -19,13 +19,13 @@ const Footer = () => {
       </ul>
 
       <div className='footer_socials'>
-        <a href="https://facebook.com"><BsLinkedin/></a>
-        <a href="https://instagram.com"><FaGithub/></a>
+        <a href="https://www.linkedin.com/in/askaman/" rel="noopener noreferrer" target="_blank"><BsLinkedin/></a>
+        <a href="https://github.com/AmanShah05" rel="noopener noreferrer" target="_blank"><FaGithub/></a>
         <a href="https://twitter.com"><FiInstagram/></a>
       </div>
 
       <div className='footer_copyright'>
-        <small>&copy; Aman Shah. All rights reserved.</small>
+        <small>Created By Aman Shah | &copy;2022 All rights reserved.</small>
       </div>
     </footer>
   )

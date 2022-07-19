@@ -41,30 +41,33 @@
 }
 
 /* ============================= MEDIA QUERIES (MEDIUM DEVICES) ============================= */
-@media screen  and (max-width: 1024px) {
+@media screen  and (max-width: 1600px) {
     .experience_container {
         grid-template-columns: 1fr;
     }
 
     .experience_container > div {
-        width: 80%;
+        width: 60%;
         padding: 2rem;
         margin: 0 auto;
     }
 
-    .experience_content {
-        padding: 1rem;
-    }
+
 }
 
 /* ============================= MEDIA QUERIES (SMALL DEVICES) ============================= */
 @media screen  and (max-width: 600px) {
     .experience_container {
-        gap: 1rem;
+        gap: 0.5rem;
     }
 
     .experience_container > div {
         width: 100%;
-        padding: 2rem 1rem;
+        padding: 1rem 1rem;
+    }
+
+    .experience_content {
+        padding: 1rem;
+        grid-template-columns:1fr 1fr;
     }
 }
