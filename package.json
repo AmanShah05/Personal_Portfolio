@@ -1,5 +1,6 @@
 {
   "name": "portfolio-website-v1",
+  "homepage": "https://amanshah.tech/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

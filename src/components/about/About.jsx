@@ -33,11 +33,9 @@ const About = () => {
             </article>
           </div>
 
-          <p>
-          Hi, My name is Aman Shah. I am Mechatronics Student at Univeristy Of Waterloo who is intrested in Machine Learning, AI, CAD/CAM and Cloud. Over the last year, I’ve been working with Python, Java, JS, C/C++, ROS, Swift, and HTML/CSS. I am constantly searching to apply and polish my skills in means of creating innovative projects which help solve issues we face on a day-to-day basis.
-          </p>
+          <p>Hi there! I'm Aman Shah, a Mechatronics student at the University of Waterloo with a passion for Machine Learning, AI, and Cloud. I strive to create groundbreaking projects that address real-world challenges and shape a better future. With a focus on merging engineering, programming, and data-driven approaches, I aim to solve pressing problems and explore emerging technologies. </p>
+          <p>As I continue my journey in the field of Mechatronics, I am eager to explore new horizons and embrace emerging technologies. I believe that the fusion of engineering, programming, and data-driven approaches holds the key to solving some of the most pressing problems of our time.</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
-
         </div>
       </div>
     </section>

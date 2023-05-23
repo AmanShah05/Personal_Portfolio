@@ -10,6 +10,30 @@ const Experience = () => {
 
       <div className="container work_experience_container">
         <div className="experience_frontend">
+          <h3>Eclipse Automation - Acquired by Accenture</h3>
+          <span className='changeofh4'>Controls Software Designer Intern</span>
+          <div className="work_experience_content">
+            <article className='work_experience_details'>
+              <BsPatchCheckFill className='experience_details-icon-2'/>
+              <div>
+                <small className='text-light'>Collaborated with the largest electric vehicle company on developing an automated battery assembly system, leveraging Siemens PLCs and HMI programming to optimize production throughput by 20%. </small>
+              </div>
+            </article>
+            <article className='work_experience_details'>
+              <BsPatchCheckFill className='experience_details-icon'/>
+              <div>
+                <small className='text-light'>Programmed Fanuc robot for motion path creation, program customization, and performance optimization.</small>
+              </div>
+            </article>
+            <article className='work_experience_details'>
+              <BsPatchCheckFill className='experience_details-icon-2'/>
+              <div>
+                <small className='text-light'>Designed, programmed, and implemented 30+ features in HMI and PLC, including safety, actuation, and data display functionality, resulting in enhanced performance and functionality of automotive systems.</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="experience_frontend">
           <h3>GrantMatch</h3>
           <span className='changeofh4'>Junior Software Developer</span>
           <div className="work_experience_content">
